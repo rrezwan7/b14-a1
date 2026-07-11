@@ -11,6 +11,7 @@ header {
     margin: 12px 0;
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -116,3 +117,42 @@ ul li a {
 }
 
 /* Banner Css Ends Here */
+
+.speakers {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.speakers-heading {
+    margin: 60px auto;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.all-speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.speakers-card {
+    margin: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.speakers-card img {
+    width: 100%;
+    height: auto;
+}
+
+.speakers-card h4 {
+    color: #2563eb;
+    margin: 10px auto;
+}
+
+.speakers-card p {
+    color: #575757;
+    margin: 10px auto;
+}
+
+/* Pricing Section Starts */
